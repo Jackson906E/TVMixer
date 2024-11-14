@@ -6,15 +6,12 @@ TVMixer is a powerful tool for temporal data analysis that incorporates variate 
 
 ## Features
 - **Temporal Variate Mixing**: Applies variate dimension mixing to improve prediction accuracy by capturing complex temporal relationships.
-- **Scalability**: Incoporate multi-scale temporal pattern.
+- **Scalability**: Incorporates multi-scale temporal pattern analysis.
 
-## Requirement
+## Requirements and Running the Code
+Make sure to install the required Python packages and then run the code with the following commands:
+
 ```bash
 pip install -r requirements.txt
-
-## To Run the code:
-
-```bash
 bash ./TVMixer.sh
-
 

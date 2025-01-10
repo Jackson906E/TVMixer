@@ -1,4 +1,4 @@
-export CUDA_VISIBLE_DEVICES=0
+export CUDA_VISIBLE_DEVICES=7
 
 model_name=TimeMixer
 
@@ -8,7 +8,7 @@ down_sampling_layers=3
 down_sampling_window=2
 learning_rate=0.01
 d_model=16
-d_ff=32
+d_ff=16
 batch_size=32
 
 python -u run.py \

@@ -1,6 +1,6 @@
-export CUDA_VISIBLE_DEVICES=2
+export CUDA_VISIBLE_DEVICES=1
 
-model_name=iTransformer
+model_name=PatchTST
 
 python -u run.py \
   --task_name long_term_forecast \
@@ -22,6 +22,9 @@ python -u run.py \
   --dec_in 8 \
   --c_out 8 \
   --des 'Exp' \
-  --batch_size 16 \
+  --batch_size 32 \
   --train_epochs 10 \
+  --d_ff 2048 \
+  --d_model 1024 \
+  --n_heads 8 \
   --itr 1 
